@@ -4,14 +4,134 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel='stylesheet' href='style.css'>
+
+    <style>
+        .exp {
+            border: 2px solid black;
+            margin-right: 200px;
+        }
+
+        .skills {
+            border: 2px solid black;
+            margin-right: 300px;
+        }
+
+        .tSkills {
+            table-layout: fixed;
+            width: 275px;
+
+        }
+
+        .devList {
+            list-style: none;
+            text-decoration: underline;
+        }
+
+        .oList {
+            list-style: square;
+            display: inline-grid
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        table li {
+            list-style: square;
+        }
+    </style>
 </head>
+
 <body>
-   <header>
-       <a href='https://www.linkedin.com/in/michael-castro-11a608164/' target='_blank'><img id='profilePic' src='profile.jpeg' style='width: 50px' alt='profile picture'></a>
-   </header>
-   
-   <h2>Michael Castro</h2>
-   <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem <br> ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem <br> ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-   
-</body>
-</html>
+    <h2>Michael Castro</h2>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <a href='https://www.linkedin.com/in/michael-castro-11a608164/' target='_blank'><img id='profilePic' src='profile.jpeg' style='width: 50px' alt='profile picture'></a>
+            </td>
+            <td>
+                <p>Fullstack web developer. Artist. Always learning</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3 class='exp'>EXPERIENCE</h3>
+
+    <h4 class='devList'>DEVELOPMENT BOOTCAMP</h4>
+    <ul>
+        <li>
+            <ol class='oList'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Network</li>
+                <li>Data Structures</li>
+            </ol>
+        </li>
+    </ul>
+    <h4 class='devList'>WEB DEVELOPER</h4>
+    <ul>
+        <li>
+            <ol class='oList'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Design</li>
+            </ol>
+        </li>
+    </ul>
+    <h3 class='skills'>SKILLS</h3>
+    <ul>
+        <table class='tSkills'>
+            <tr>
+                <td>
+                    <li>Javascript</li>
+                </td>
+                <td>
+                    <li>HTML</li>
+                </td>
+                <td>
+                    <li>CSS</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Python</li>
+                </td>
+                <td>
+                    <li>API's</li>
+                </td>
+                <td>
+                    <li>jQuery</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>React</li>
+                </td>
+                <td>
+                    <li>Nodejs</li>
+                </td>
+                <td>
+                    <li>Design</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>Development</li>
+                </td>
+            </tr>
+        </table>
+    </ul>
+    <footer>
+        <div>Get in touch
+            <address>
+                Email: <a href='mailto:castrom89@gmail.com'>Castrom89@gmail.com</a>
+                Phone: <a href='tel:847-722-6430'>(847)722-6430</a>
+            </address>
+
+
+        </div>
+    </footer>
+</body></html>
